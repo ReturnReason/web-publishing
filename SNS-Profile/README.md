@@ -7,7 +7,7 @@
 
 ## 🍎코딩애플님의 SNS Profile 실습 페이지 클론코딩
 
-<img src="codingapple.png">
+![codingapple](https://user-images.githubusercontent.com/48672106/161401308-a8b4e1a9-ebbf-4557-8a79-66d5ab05f2d2.PNG)
 이미지 출처 : 코딩애플님
 <br><br>
 

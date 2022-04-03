@@ -1,126 +1,74 @@
-@font-face {
-    font-family: '나눔스퀘어';
-    src: url(../../font/NanumSquareR.woff);
-}
-
-html {
-    letter-spacing: -1px;
-    color: #313131;
-    font-family: '나눔스퀘어';
-}
-
-p {
-    margin-bottom: 10px;
-}
-
-/* font */
-.bold {
-    font-weight: 900;
-}
-
-.font-color-sky {
-    color : #6fbaf8;
-}
-
-/* button */
-.btn {
-    border-radius: 3px;
-    padding: 10px 20px;
-    border: none;
-}
-
-.btn-sky {
-    background: #6fbaf8;
-    color: #fff;
-}
-
-
-/* margin */
-.mg-s {
-    margin: 5px;
-}
-
-.mg-m {
-    margin: 10px;
-}
-
-.mg-lg {
-    margin: 20px;
-}
-
-.mg-xl{
-    margin: 40px;
-}
-
-.mt-s{
-    margin-top: 5px;
-}
-
-.mb-s {
-    margin-bottom: 5px;
-}
-
-.mb-m{
-    margin-bottom: 10px;
-}
-
-.mr-s {
-    margin-right: 5px;
-}
-
-.mr-m {
-    margin-right: 10px;
-}
-
-.mr-lg{
-    margin-right: 20px;
-}
-
-.mr-xl {
-    margin-right: 40px;
-}
-
-/*  */
+/* PROFILE CONTAINER */
 .profile-container {
-    background: #f7f9fc;
-    padding: 100px;
-    max-width: 100%;
+  background: #f7f9fc;
+  padding: 100px;
+  max-width: 100%;
 }
 
+/* PROFILE BACKGROUND */
 .profile-white-bg {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-    padding: 3%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 3%;
 }
 
+/* PROFILE HEADER */
 .profile-header {
-    max-width: 100%;
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .profile-introduce {
-    flex-grow: 4;
+  flex-grow: 4;
 }
 
-.profile-img{
-    height: 150px;
-    display: block;
+.profile-img {
+  height: 150px;
+  display: block;
 }
 
-.profile-name{
-    font-size: 23px;
+.profile-name {
+  font-size: 23px;
 }
 
-.dividing-line{
-    border-left: 2px solid #eee;
-    flex-grow: 1;
-
+.dividing-line {
+  border-left: 2px solid #eee;
+  flex-grow: 1;
 }
 
-.profile-introduce-detail{
-    flex-grow: 1;
-    margin-top: auto;
+.profile-introduce-detail {
+  flex-grow: 1;
+  margin-top: auto;
 }
+
+/* PROFILE-PROGRESS-BAR */
+.profile-bar-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.profile-bar-title {
+}
+
+.profile-bar-title li {
+  width: 100px;
+  text-align: center;
+}
+
+.profile-bar-progress {
+  height: 3px;
+  border: none;
+  background-color: rgb(209, 209, 209);
+  position: relative;
+}
+
+.degree-of-progress {
+  background-color: #6fbaf8;
+  width: 100px;
+}
+
+/* PROFILE SECTION */

@@ -1,4 +1,10 @@
 @media screen and (max-width : 1200px) {
+
+  .profile-container {
+    min-width: 700px;
+    height: auto;
+  }
+
   .profile-white-bg {
     display: flex;
     flex-wrap: wrap;
@@ -7,9 +13,9 @@
     padding: 30px;
     position: relative;
     width: 90%;
+    min-width: 500px;
     height: 100%;
   }
-
 
   .profile-header {
   }
@@ -68,10 +74,37 @@
     margin-bottom: 20px;
   }
 
+  .title-text[data-title="nickname"]{
+    margin-bottom: 20px;
+  }
+
   .text{
     width: 100%;
     margin-top: 10px;
     line-height: 1.5rem;
+  }
+
+  /* PEOPLE YOU MIGHT KNOW */
+
+  .side-right-bottom{
+    display: none;
+  }
+
+  .profile-side-right{
+    width: 90%;
+    min-width: 500px;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  .profile-find-me{
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 35px;
   }
 
 }

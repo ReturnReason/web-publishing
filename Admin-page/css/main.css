@@ -10,11 +10,10 @@ i {
 .main-container {
   height: 100vh;
   background: rgb(235, 235, 235);
-  display: flex;
 }
 
 .main-nav {
-  width: 150px;
+  width: 130px;
   background-color: rgb(65, 70, 181);
   z-index: 1;
   display: flex;
@@ -44,6 +43,7 @@ header {
   box-shadow: 0 3px 3px rgba(190, 190, 190, 0.268);
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .main-header-search {
@@ -116,4 +116,108 @@ button {
   color: white;
   top: 0;
   left: 20px;
+}
+
+/* DASHBOARD */
+.main-dashboard {
+  padding-left: 70px;
+  /* max-width: 1300px; */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.main-dashboard h1 {
+  font-size: 25px;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dashboard-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.card {
+  position: relative;
+}
+
+.card:nth-child(1):after {
+  content: '';
+  display: inline-block;
+  background-color: skyblue;
+  width: 4px;
+  height: 120px;
+  position: absolute;
+  top: 0vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card:nth-child(2):after {
+  content: '';
+  display: inline-block;
+  background-color: rgb(112, 207, 163);
+  width: 4px;
+  height: 120px;
+  position: absolute;
+  top: 0vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card:nth-child(3):after {
+  content: '';
+  display: inline-block;
+  background-color: rgb(143, 135, 235);
+  width: 4px;
+  height: 120px;
+  position: absolute;
+  top: 0vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card:nth-child(4):after {
+  content: '';
+  display: inline-block;
+  background-color: rgb(244, 185, 118);
+  width: 4px;
+  height: 120px;
+  position: absolute;
+  top: 0vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-box {
+  border-radius: 5px;
+  background-color: #fff;
+  height: 120px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgb(209, 209, 209);
+  margin-right: 10px;
+  min-width: 250px;
+  width: 90%;
+}
+
+.card-box h2 {
+  color: rgb(51, 51, 51);
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.card-box p {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.card-icon {
+  font-size: 30px;
+  margin-left: 20px;
 }

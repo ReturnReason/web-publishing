@@ -10,6 +10,7 @@ i {
 .main-container {
   height: 100vh;
   background: rgb(235, 235, 235);
+  overflow: hidden;
 }
 
 .main-nav {
@@ -191,7 +192,7 @@ button {
   position: absolute;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  background: rgb(71, 65, 240);
+  background: rgb(61, 57, 176);
 }
 
 .card:nth-child(4)::after {
@@ -233,4 +234,78 @@ button {
   font-size: 30px;
   padding-left: 10px;
   padding-top: 5px;
+}
+
+/* GRAPH & Tasks */
+
+.main-section {
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.graph-container {
+  box-shadow: 0 3px 3px rgba(190, 190, 190, 0.268);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 20px;
+  width: 70%;
+  margin: 10px;
+}
+
+.graph-container h2 {
+  color: rgb(51, 51, 51);
+  padding: 15px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+}
+
+.graph {
+  width: 100%;
+  padding: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  background: #fff;
+}
+
+.tasks-container {
+  width: 40%;
+  margin: 10px;
+}
+
+.tasks-container h2 {
+  color: rgb(51, 51, 51);
+  padding: 15px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+}
+
+.task {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.task p {
+  padding-top: 2px;
+  color: rgb(51, 51, 51);
+}
+
+.badge-blue {
+  background: rgb(18, 104, 225);
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 15px;
 }

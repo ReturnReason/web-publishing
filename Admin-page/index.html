@@ -40,6 +40,7 @@
           </div>
         </div>
       </header>
+
       <main class="main-dashboard">
         <h1>Dashboard</h1>
         <div class="dashboard-card-container">
@@ -90,7 +91,62 @@
         </div>
       </main>
 
-      <section></section>
+      <!-- Graph,  tasks-->
+      <section class="main-section">
+        <div class="graph-container">
+          <h2>Earnings Overview</h2>
+          <div class="graph">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+
+        <div class="tasks-container">
+          <h2>Tasks</h2>
+          <div class="task">
+            <p>Borrowed Items</p>
+            <div class="badge-blue">14</div>
+          </div>
+          <div class="task">
+            <p>Borrowed Items</p>
+            <div class="badge-blue">14</div>
+          </div>
+          <div class="task">
+            <p>Borrowed Items</p>
+            <div class="badge-blue">14</div>
+          </div>
+        </div>
+      </section>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const labels = ['January', 'February', 'March', 'April', 'May', 'June'];
+
+      const data = {
+        labels: labels,
+        datasets: [
+          {
+            label: 'Monthly',
+            data: [0, 10, 5, 3, 20, 30, 35, 45],
+            responsive: false,
+          },
+        ],
+      };
+
+      const config = {
+        type: 'line',
+        data: data,
+        options: {
+          backgroundColor: ['rgb(61, 57, 176)'],
+          borderWidth: 3,
+          fill: true,
+          borderColor: 'rgb(61, 57, 176)',
+          tension: 0.3,
+        },
+      };
+    </script>
+    <script>
+      const myChart = new Chart(document.getElementById('myChart'), config);
+    </script>
   </body>
 </html>

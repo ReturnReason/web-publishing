@@ -59,6 +59,9 @@ header {
   position: relative;
 }
 
+.main-mobile-menu {
+  display: none;
+}
 .main-header-search {
   margin-top: 20px;
   position: relative;
@@ -320,4 +323,62 @@ button {
   font-size: 12px;
   font-weight: bold;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 720px) {
+  .main-container {
+    height: 100%;
+  }
+  header {
+    height: 50px;
+    position: relative;
+  }
+
+  .main-mobile-menu {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    height: 35px;
+    margin-top: 8px;
+    position: absolute;
+    right: 20px;
+    display: block;
+  }
+
+  .main-mobile-menu i {
+    font-size: 20px;
+  }
+
+  .main-header-search,
+  .main-header-notification {
+    display: none;
+  }
+
+  .main-dashboard {
+    width: 100%;
+  }
+
+  .main-dashboard h1 {
+    margin-left: 30px;
+  }
+  .dashboard-card-container {
+    flex-direction: column;
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .main-section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .graph-container {
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .tasks-container {
+    width: 90%;
+    margin-left: 30px;
+  }
 }

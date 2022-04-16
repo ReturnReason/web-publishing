@@ -28,6 +28,11 @@ PC 사이즈
 ### PC 사이즈 - Dashboard 1차 완성 (2022.04.16)
 ![image](https://user-images.githubusercontent.com/48672106/163601911-6c51edaa-9d00-4cc4-91a0-1ce1506545af.png)
 
+### PC사이즈& 반응형 완성 (2022.04.17)
+![Honeycam 2022-04-17 01-27-30](https://user-images.githubusercontent.com/48672106/163683424-cf98dfed-257b-44a1-919d-fdaf88bbe922.gif)
+
+![Honeycam 2022-04-17 01-28-37](https://user-images.githubusercontent.com/48672106/163683432-4cd52c4c-c9e4-40f1-a433-8ea8773b2c74.gif)
+
 -- --
 ### 부족했다고 느끼는 부분
 1. 헤더 부분 클론코딩 할 때 사이트를 보고 레이아웃을 이렇게 짜면 되겠군!하는 정도는 아직 멀었나보다.

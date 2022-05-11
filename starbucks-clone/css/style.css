@@ -1,0 +1,147 @@
+:root {
+  --bg--color: #f6f5ef;
+  --font-color: #555;
+  --dark-font-color: #333;
+}
+
+/* header */
+
+.header-container {
+  background-color: var(--bg--color);
+  border-top: 2px solid black;
+}
+
+.header-nav {
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 120px;
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  padding-top: 5px;
+  display: block;
+}
+
+.menu-top {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 3px;
+  right: 30px;
+}
+
+.menu-top li {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  font-size: 13px;
+  color: var(--font-color);
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.menu-top li:last-child {
+  border-right: none;
+}
+
+.menu-bottom {
+  display: flex;
+  color: var(--font-color);
+  position: absolute;
+  right: 0;
+  top: 45px;
+}
+
+.menu-bottom li {
+  margin-right: 40px;
+  margin-top: 23px;
+  font-size: 0.8rem;
+  color: var(--dark-font-color);
+  letter-spacing: 1px;
+}
+
+/* main */
+
+.main-container {
+  background-image: url('../img/2022_Summer1_main_bg.jpg');
+  width: 100%;
+  height: 650px;
+  background-position: left 65% bottom 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-inner {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-slogan {
+  width: 30%;
+  position: absolute;
+  top: 47px;
+  left: 30px;
+}
+
+.main-visual {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.items {
+  position: absolute;
+}
+
+.item1 {
+  bottom: 18%;
+  left: 19%;
+}
+
+.item2 {
+  left: 36%;
+  bottom: 25%;
+}
+
+.item3 {
+  right: -10%;
+  bottom: 13%;
+}
+
+.main-btn {
+  position: absolute;
+  top: 39%;
+  left: 9.5%;
+}
+
+.main-visual-btn {
+  border: 2px solid #d73a7a;
+  color: #d73a7a;
+  font-size: 15px;
+  padding: 8px 27px;
+  border-radius: 5px;
+  background: none;
+}
+
+.cards {
+  display: fixed;
+  position: absolute;
+  width: 300px;
+}
+
+.card1 {
+  top: 4.5%;
+  right: 6.8%;
+}
+
+.card2 {
+  top: 19.3%;
+  right: 6.8%;
+}

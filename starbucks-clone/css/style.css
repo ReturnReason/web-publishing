@@ -152,7 +152,7 @@
 }
 
 .main-banner .notice {
-  background: rgb(30, 30, 30);
+  background: rgb(21, 21, 21);
   width: 50%;
   height: 62px;
   padding: 20px;
@@ -207,6 +207,12 @@
   color: #fff;
   padding: 30px;
   max-width: 1080px;
+  gap: 40px;
+}
+
+.rewards-container img {
+  width: 100%;
+  padding-top: 10px;
 }
 
 .rewards-container p {
@@ -214,8 +220,22 @@
   line-height: 1.4;
 }
 
+.rewards-left {
+  width: 20%;
+}
+
+.rewards-right {
+  width: 80%;
+}
+
+.rewards-right hr {
+  border: none;
+  border-bottom: 1px solid #4b615b;
+  padding-bottom: 10px;
+}
+
 .rewards-title {
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -225,10 +245,28 @@
   justify-content: space-between;
 }
 
+.rewards-btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rewards-btm p {
+  width: 80%;
+  font-size: 14px;
+}
+
+.rewards-btm .btn {
+  width: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
 .btn {
   border-radius: 5px;
   background: transparent;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -236,4 +274,10 @@
 .join-btn {
   background: #00704a;
   border: none;
+  margin-right: 10px;
+}
+
+button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

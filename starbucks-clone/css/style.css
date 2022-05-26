@@ -145,3 +145,95 @@
   top: 19.3%;
   right: 6.8%;
 }
+
+.main-banner {
+  display: flex;
+  position: relative;
+}
+
+.main-banner .notice {
+  background: rgb(30, 30, 30);
+  width: 50%;
+  height: 62px;
+  padding: 20px;
+  padding-top: 22px;
+  display: flex;
+}
+
+.notice img {
+  width: 65px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.notice span {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 3px;
+  vertical-align: top;
+}
+
+.notice-more {
+  background: url('../img/btn_notice_plus.png') 0 0 no-repeat;
+}
+
+.notice-more a {
+  text-indent: -99999px;
+  position: absolute;
+}
+
+.main-banner .promotion {
+  background: #eee;
+  width: 50%;
+  height: 62px;
+  padding: 20px;
+  padding-top: 22px;
+  display: flex;
+}
+
+.promotion img {
+  height: 20px;
+}
+
+/* 리워드 배너 */
+.rewards-bg {
+  background: #1e3932;
+  display: flex;
+  justify-content: center;
+}
+.rewards-container {
+  display: flex;
+  color: #fff;
+  padding: 30px;
+  max-width: 1080px;
+}
+
+.rewards-container p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.rewards-title {
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.rewards-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px 15px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.join-btn {
+  background: #00704a;
+  border: none;
+}
